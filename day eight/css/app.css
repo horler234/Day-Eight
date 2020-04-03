@@ -4,7 +4,8 @@
 
 html body {
   font-family: "Questrial", sans-serif;
-  color: #ffff; }
+  color: #ffff;
+  overflow: x-hidden;  }
 
 .row {
   display: flex;
@@ -328,10 +329,6 @@ p.footer-text {
     margin-bottom: 30px; }
 
   .nav-menu {
-    display: none !important; }
-
-  h1.restaurant-text {
-    font-size: 15px;
-    } }
+    display: none !important; } }
 
 /*# sourceMappingURL=app.css.map */
