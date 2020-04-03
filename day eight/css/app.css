@@ -328,6 +328,10 @@ p.footer-text {
     margin-bottom: 30px; }
 
   .nav-menu {
-    display: none !important; } }
+    display: none !important; }
+
+  h1.restaurant-text {
+    font-size: 20px;
+    } }
 
 /*# sourceMappingURL=app.css.map */
