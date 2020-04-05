@@ -4,8 +4,7 @@
 
 html body {
   font-family: "Questrial", sans-serif;
-  color: #ffff;
-  overflow: x-hidden;  }
+  color: #ffff; }
 
 .row {
   display: flex;
@@ -114,8 +113,7 @@ h1.restaurant-text {
   font-family: "Cinzel", serif;
   font-size: 5rem;
   margin: 0;
-  padding: 0;
-  width: 100%; }
+  padding: 0; }
 
 button.order-btn {
   font-family: "Questrial", sans-serif;
@@ -322,13 +320,38 @@ p.footer-text {
     flex-wrap: wrap;
     text-align: center; }
 
-  .img-text-container,
-  .regular,
+  .regular {
+    width: 80%;
+    margin-bottom: 30px; }
+
   .address {
     width: 100%;
     margin-bottom: 30px; }
 
   .nav-menu {
-    display: none !important; } }
+    display: none !important; }
+
+  h1.restaurant-text {
+    font-size: 40px; }
+
+  h1.premium {
+    font-size: 40px; }
+
+  p.quality {
+    font-size: 6px; }
+
+  h1.welcome-text {
+    font-size: 20px; }
+
+  .img-text-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px; }
+
+  img.explain-img {
+    width: 100%; }
+
+  .about-container {
+    padding: 40px 0; } }
 
 /*# sourceMappingURL=app.css.map */
